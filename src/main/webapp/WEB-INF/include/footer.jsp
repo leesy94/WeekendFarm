@@ -12,3 +12,5 @@
         <p>Copyright ⓒ 주말농장. All Rights Reserved. </p>
     </div>
 </footer>
+</body>
+</html>
