@@ -34,7 +34,7 @@
 <div class="wrap con">
     <div class="boarder_top">
         <h2>고객센터</h2>
-        <div class="search">
+        <div class="search">  sdfdsfdsdsfdf
             <form action="">
                 <select name="type" id="type">
                     <option value="title">제목</option>
