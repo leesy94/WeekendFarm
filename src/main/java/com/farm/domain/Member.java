@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class Member {
     @Id
-    @GeneratedValue
+    @GeneratedValue(generator="myBoardSEQ")
     private Long id;
     private String name;
     private String email;
