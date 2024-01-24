@@ -9,9 +9,15 @@
                     <div class="view">
                         <img src="http://www.nongsaro.go.kr/cms_contents/1096/229873_MF_BIMG_12.jpg">
                     </div>
-                    <div class="dsc">
-                        <p class="title">서희와 길상이</p>
-                        <span class="theme">천연염색 </span>
+                    <div class="desc">
+                        <div class="left">
+                            <p class="title">서희와 길상이</p>
+                            <span class="theme">천연염색 </span>
+                        </div>
+                        <div class="right">
+                            <i class="fa-solid fa-star"></i>
+                            <span class="score">4.5</span>
+                        </div>
                     </div>
                 </a>
             </li>

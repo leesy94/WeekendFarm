@@ -1,5 +1,61 @@
 @charset "utf-8";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo.css');
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 300;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.eot?#iefix') format('embedded-opentype'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.woff2') format('woff2'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.woff') format('woff'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-aLt.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 400;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.eot?#iefix') format('embedded-opentype'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.woff2') format('woff2'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.woff') format('woff'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-bRg.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 700;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.eot?#iefix') format('embedded-opentype'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.woff2') format('woff2'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.woff') format('woff'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-cBd.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 800;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.eot?#iefix') format('embedded-opentype'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.woff2') format('woff2'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.woff') format('woff'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-dEb.ttf') format("truetype");
+    font-display: swap;
+}
+@font-face {
+    font-family: 'NanumSquareNeo';
+    font-weight: 900;
+    font-style: normal;
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.eot');
+    src: url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.eot?#iefix') format('embedded-opentype'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.woff2') format('woff2'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.woff') format('woff'),
+         url('https://webfontworld.github.io/NanumSquareNeo/NanumSquareNeo-eHv.ttf') format("truetype");
+    font-display: swap;
+}
 @font-face {
     font-family: 'AppleSDGothicNeo';
     src: url('fonts/AppleSDGothicNeoL.eot?#iefix') format('embedded-opentype');
@@ -48,43 +104,15 @@
             local(※), url('fonts/AppleSDGothicNeoH.woff') format('woff');
     font-weight: 800;
 }
-/*gmarket
-@font-face {
- font-family: 'GmarketSans';
-    src: url('fonts/GmarketSansLight.otf');
-    src: url('fonts/GmarketSansLight.otf?#iefix') format('embedded-opentype');
-    src: url('fonts/GmarketSansTTFLight.ttf') format('truetype');
-	src: url('fonts/GmarketSansTTFLight.eot?#iefix');
-	src:local(※), url('fonts/GmarketSansTTFLight.woff') format('woff');
-    font-weight: 400;
-}
-@font-face {
- font-family: 'GmarketSans';
-    src: url('fonts/GmarketSansMedium.otf');
-    src: url('fonts/GmarketSansMedium.otf?#iefix') format('embedded-opentype');
-    src: url('fonts/GmarketSansTTFMedium.ttf') format('truetype');
-	src: url('fonts/GmarketSansTTFMedium.eot?#iefix');
-	src: local(※), url('fonts/GmarketSansTTFMedium.woff') format('woff');
-    font-weight: 500;
-}
-@font-face {
- font-family: 'GmarketSans';
-    src: url('fonts/GmarketSansBold.otf');
-    src: url('fonts/GmarketSansBold.otf?#iefix') format('embedded-opentype');
-    src:url('fonts/GmarketSansTTFBold.ttf') format('truetype');
-	src:url('fonts/GmarketSansTTFBold.eot?#iefix');
-	src: local(※), url('fonts/GmarketSansTTFBold.woff') format('woff');
-    font-weight: 600;
-}*/
-
 *{
     padding:0;
     margin:0;
     box-sizing: border-box;
-    font-family:'Roboto','AppleSDGothicNeo', 'Open Sans' ,sans-serif ;
+    font-family: 'NanumSquareNeo','AppleSDGothicNeo', 'Roboto', 'Open Sans' ,sans-serif ;
+    /*font-family:'AppleSDGothicNeo', 'Roboto', 'Open Sans' ,sans-serif ;*/
 }
 h1,h2,h3,h4,h5,h6{
-    font-weight:500;
+    font-weight:800;
 }
 ul,li,dl,dt,dd,ol{
     list-style:none;
@@ -97,65 +125,14 @@ body {
     overflow-x: hidden;
 }
 body,a{
-    font-family:'Roboto','AppleSDGothicNeo',sans-serif !important;
+    font-family: 'NanumSquareNeo','AppleSDGothicNeo', 'Roboto', 'Open Sans' ,sans-serif ;
     font-size:16px;
     font-weight:400;
     /*letter-spacing: 0.03em;*/
     font-style: normal;
     /*line-height: 1.6;*/
-    color:#373737;
+    color:#222;
 }
-.gma{
-    font-family:'GmarketSans',sans-serif !important;
-    color:#2D313C;
-}
-#loading {
-    width: 100px;
-    height: 100px;
-    top: 50%;
-    left: 50%;
-    position: fixed;
-    display: block;
-    opacity: 0.7;
-    background-color: #000;
-    z-index: 99;
-    text-align: center;
-    margin-left: -50px;
-    margin-top: -50px;
-    border-radius: 10px;
-    overflow: hidden;
-}
-
-#loadingmodal {
-    width: 100%;
-    height: 100%;
-    top: 0px;
-    left: 0px;
-    position: fixed;
-    display: none;
-    opacity: 1;
-    z-index: 99;
-    text-align: center;
-}
-
-#loading-image {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    z-index: 100;
-    margin-left: -32px;
-    margin-top: -32px;
-}
-
-#loading-image {
-    -webkit-animation: spin 1000ms infinite linear;
-    -moz-animation: spin 1000ms infinite linear;
-    -ms-animation: spin 1000ms infinite linear;
-    animation: spin 1000ms infinite linear;
-}
-
-
-
 
 img{
     border:0;
@@ -164,21 +141,6 @@ img{
 table{
     border-collapse: collapse;
     width:100%;
-}
-/*이미지맵*/
-img[usemap] {
-    border: none;
-    height: auto;
-    max-width: 100%;
-    width: auto;
-}
-@media (max-width: 991px) {
-    img[usemap] {
-        border: none;
-        height: auto !important;
-        max-width: 100%;
-        width: 100% !important;
-    }
 }
 .ellipsis{
     display:block;
@@ -385,6 +347,7 @@ footer div {
     float: left;
     width: 44%;
     margin-left: 3%;
+    padding-bottom: 20px;
 }
 .container > ul > li:nth-child(odd){
     margin-left: 0;
@@ -400,6 +363,15 @@ footer div {
 .container > ul > li > a > .view > img{
     width: 100%;
 }
+.container > ul > li .desc{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5px;
+}
+.container > ul > li .desc .left .title{
+    font-weight: bold;
+}
+/* map */
 .map-wrap{
     position: sticky;
     width: 50%;
