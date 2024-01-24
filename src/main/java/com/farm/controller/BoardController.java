@@ -24,6 +24,12 @@ public class BoardController {
     private Member loginUser;
 
     @GetMapping("/board")
+    public String boardList() {
+
+        return "board";
+    }
+
+    @GetMapping("/boardSearch")
     public String board(@RequestParam("type") String type , @RequestParam("keyword") String keyword , @PageableDefault(size = 10) Pageable pageable , Model model) {
         System.out.println(type +"/"+ keyword);
         /*String name = "%"+type+"%";
@@ -54,6 +60,6 @@ public class BoardController {
         Page<Board> boards = boardService.list(type,keyword,pageable);
         model.addAttribute("boards", boards);
 
-        return "board";
+        return "board?type="+type+"&keyword="+keyword;
     }
 }

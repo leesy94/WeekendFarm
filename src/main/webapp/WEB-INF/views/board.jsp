@@ -4,7 +4,7 @@
     <div class="boarder_top">
         <h2>고객센터</h2>
         <div class="search">
-            <form action="">
+            <form action="/boardSearch">
                 <select name="type" id="type">
                     <option value="title">제목</option>
                     <option value="content">내용</option>
