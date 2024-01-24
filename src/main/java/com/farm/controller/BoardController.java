@@ -24,6 +24,22 @@ public class BoardController {
     private Member loginUser;
 
     @GetMapping("/board")
+    public String boardList(@RequestParam(value="nowPage", defaultValue="1") int page ,Model model) {
+        //Sort sort = Sort.by(Sort.Order.desc("name"));
+
+        int nPage = page - 1; // 시작페이지
+        Pageable pageable = PageRequest.ofSize(10).withPage(nPage); //ofsize(페이지당 게시물) , withPage(현재페이지)
+
+        //model.addAttribute("board",boardService.listAll(pageable));
+        //model.addAttribute("board", boardService.listAll(PageRequest.of(nowPage, 10))) ;
+        //System.out.println("board : "+board);
+        Page<Board> result = boardService.listAll(pageable);
+        List<Board> content = result.getContent();
+        model.addAttribute("board", content);
+        return "/board";
+    }
+
+    @GetMapping("/boardSearch")
     public String board(@RequestParam("type") String type , @RequestParam("keyword") String keyword , @PageableDefault(size = 10) Pageable pageable , Model model) {
         System.out.println(type +"/"+ keyword);
         /*String name = "%"+type+"%";
@@ -54,6 +70,6 @@ public class BoardController {
         Page<Board> boards = boardService.list(type,keyword,pageable);
         model.addAttribute("boards", boards);
 
-        return "board";
+        return "/board?type="+type+"&keyword="+keyword;
     }
 }
