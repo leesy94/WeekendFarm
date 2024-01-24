@@ -27,7 +27,7 @@
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://kit.fontawesome.com/256c666685.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
     <title>메인</title>
 </head>
 <body>
