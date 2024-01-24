@@ -235,7 +235,7 @@ b{font-weight:600;}
 .wrap:after {content:"";display:block;clear:both}
 header {
     height: 200px;
-    background: aquamarine;
+    background: blue;
 }
 body {
     display: flex;
