@@ -7,7 +7,7 @@
 --%>
 <%@include file="../include/header.jsp" %>
 <div class="wrap con">
-
+    안영?
 </div>
 <%@include file="../include/footer.jsp" %>
 
